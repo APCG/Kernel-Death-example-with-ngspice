@@ -3,8 +3,8 @@ vin 1 0 dc 24v
 ra 2 0 1e-07
 rb 1 2 100000000
 rload 4 5 3.5
-.include C:/Users/salman.nazir/Desktop/Project/Implementation-with-lyngspice/APCG-Old-Average-Sim-No-PreTraining-Reduced-Limitations-on-L-C-6-Nodes/irf150.lib
-.include C:/Users/salman.nazir/Desktop/Project/Implementation-with-lyngspice/APCG-Old-Average-Sim-No-PreTraining-Reduced-Limitations-on-L-C-6-Nodes/vb40100c.lib
+.include ./irf150.lib
+.include ./vb40100c.lib
 r16 1 6 1e-07
 L23 2 3 0.00075 ic=-14.592427616982743A
 C24 2 4 0.00033 ic=-35.01091801502527V
